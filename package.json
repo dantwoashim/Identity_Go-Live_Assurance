@@ -1,0 +1,49 @@
+{
+  "name": "identity-go-live-assurance-core",
+  "version": "0.1.0",
+  "description": "Community core for modeling identity go-live assessments, scenario coverage, and buyer-safe report snapshots.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22 <26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dantwoashim/Identity_Go-Live_Assurance.git"
+  },
+  "keywords": [
+    "identity",
+    "sso",
+    "scim",
+    "saml",
+    "enterprise",
+    "assurance"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc -p tsconfig.json --noEmit --incremental false",
+    "test": "vitest run",
+    "verify": "npm run lint && npm run typecheck && npm run test && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.29.0",
+    "vitest": "^3.0.8"
+  }
+}

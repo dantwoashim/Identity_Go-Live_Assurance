@@ -49,9 +49,10 @@ If you need the hosted workflows, managed assessments, or enterprise delivery su
 ```bash
 npm install
 npm run verify
+npm run example:basic
 ```
 
-That runs lint, typecheck, tests, and a production build of the library bundle.
+That installs the package, runs the full verification pass, and then builds and runs a small example against the fake sample snapshot.
 
 ## Usage
 
@@ -84,6 +85,8 @@ import { sampleReportSnapshot } from "identity-go-live-assurance-core";
 
 console.log(sampleReportSnapshot.summary.providerValidation.supportStatement);
 ```
+
+If you want a runnable reference, see [examples/basic-report.mjs](examples/basic-report.mjs).
 
 ## Architecture overview
 
@@ -130,9 +133,11 @@ Hosted workflows, managed assessments, support, and enterprise capabilities are 
 - Contact: `<COMMERCIAL_CONTACT_EMAIL>`
 - More information: `<COMMERCIAL_CONTACT_URL>`
 
+There is also a short boundary note in [COMMERCIAL.md](COMMERCIAL.md).
+
 ## License
 
-This project is licensed under Apache-2.0. See [LICENSE](LICENSE).
+This project is licensed under Apache-2.0. See [LICENSE](LICENSE). Trademark and commercial-boundary notes live in [NOTICE](NOTICE).
 
 ## Feedback
 

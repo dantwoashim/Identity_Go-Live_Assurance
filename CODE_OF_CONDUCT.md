@@ -28,5 +28,5 @@ Project maintainers may remove comments, close threads, or block participation w
 
 If you need to report a conduct issue, use:
 
-- `<COMMERCIAL_CONTACT_EMAIL>`
-- `<COMMERCIAL_CONTACT_URL>`
+- `twodan033@gmail.com`
+- `mailto:twodan033@gmail.com`

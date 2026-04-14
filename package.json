@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Community core for modeling identity go-live assessments, scenario coverage, and buyer-safe report snapshots.",
   "license": "Apache-2.0",
+  "author": "dantwoashim <twodan033@gmail.com>",
   "type": "module",
   "files": [
     "dist"

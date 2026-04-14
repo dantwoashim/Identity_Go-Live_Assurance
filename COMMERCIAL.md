@@ -11,7 +11,7 @@ Separate hosted and commercial offerings may include:
 
 If you want to talk about those offerings, use:
 
-- `<COMMERCIAL_CONTACT_EMAIL>`
-- `<COMMERCIAL_CONTACT_URL>`
+- `twodan033@gmail.com`
+- `mailto:twodan033@gmail.com`
 
 This file is intentionally brief. It draws the line without exposing internal product or sales mechanics.

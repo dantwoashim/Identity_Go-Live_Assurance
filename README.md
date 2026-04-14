@@ -130,8 +130,8 @@ This repository contains the community core only.
 
 Hosted workflows, managed assessments, support, and enterprise capabilities are offered separately.
 
-- Contact: `<COMMERCIAL_CONTACT_EMAIL>`
-- More information: `<COMMERCIAL_CONTACT_URL>`
+- Contact: `twodan033@gmail.com`
+- More information: `mailto:twodan033@gmail.com`
 
 There is also a short boundary note in [COMMERCIAL.md](COMMERCIAL.md).
 
@@ -145,5 +145,5 @@ Issues and pull requests are welcome for the public core. If you need to discuss
 
 For commercial inquiries, use:
 
-- `<COMMERCIAL_CONTACT_EMAIL>`
-- `<COMMERCIAL_CONTACT_URL>`
+- `twodan033@gmail.com`
+- `mailto:twodan033@gmail.com`

@@ -4,8 +4,8 @@ If you believe you have found a security issue in this repository, please do not
 
 Report it privately:
 
-- `<COMMERCIAL_CONTACT_EMAIL>`
-- `<COMMERCIAL_CONTACT_URL>`
+- `twodan033@gmail.com`
+- `mailto:twodan033@gmail.com`
 
 Include:
 

@@ -22,6 +22,10 @@
     "type": "git",
     "url": "https://github.com/dantwoashim/Identity_Go-Live_Assurance.git"
   },
+  "homepage": "https://github.com/dantwoashim/Identity_Go-Live_Assurance#readme",
+  "bugs": {
+    "url": "https://github.com/dantwoashim/Identity_Go-Live_Assurance/issues"
+  },
   "keywords": [
     "identity",
     "sso",
@@ -32,6 +36,7 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
+    "example:basic": "npm run build && node examples/basic-report.mjs",
     "lint": "eslint . --max-warnings=0",
     "typecheck": "tsc -p tsconfig.json --noEmit --incremental false",
     "test": "vitest run",

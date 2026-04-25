@@ -99,6 +99,13 @@ The public repository is intentionally small. It is a library, not an app.
 
 If you want the high-level system picture, start with [docs/architecture.md](docs/architecture.md) and [docs/overview.md](docs/overview.md).
 
+## Portfolio docs
+
+- [Case study](docs/CASE_STUDY.md)
+- [Demo script](docs/DEMO_SCRIPT.md)
+- [Architecture](docs/architecture.md)
+- [Sample report](docs/sample-report.md)
+
 ## Roadmap
 
 The short version:
